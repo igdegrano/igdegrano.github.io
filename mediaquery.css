@@ -118,23 +118,42 @@
         width: 80%;
         margin: 0 auto;
     }
-    .slick-slider img {
-        width: 300px;
-    }
 }
 
 @media screen and (max-width: 486px) {
+    .contact-info-container p {
+        height: auto;
+    }
+    
     footer .nav-links {
         gap: .4rem;
+    }
+
+    .contact-info-upper-container {
+        display: flex;
     }
 
     .contact-info-container a img.email-icon {
         width: 60px;
         height: 60px;
     }
-    
+
     .contact-info-container img.icons {
         width: 50px;
         height: 50px;
+    }
+
+    .contact-info-container p {
+        display: none;
+    }
+
+    article {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #about .details-container {
+        width: 280px;
     }
 }
