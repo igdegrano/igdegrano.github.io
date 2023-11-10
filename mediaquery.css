@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+    #hero {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    section {
+        padding: 0 4rem;
+    }
+
+    section, .section-container {
+        height: auto;
+    }
+
+    .arrow {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .menu-links.open {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 864px) {
+    #desktop-nav {
+        display: none;
+    }
+    
+    #mobile-nav {
+        display: flex;
+    }
+
+    #hero {
+        display: flex;
+        text-align: center;
+        height: auto;
+        margin-bottom: 4rem;
+        gap: 0;
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .hero-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    section {
+        padding: 0 2rem;
+    }
+
+    section, .section-container {
+        height: auto;
+    }
+
+    #about, #skills, #projects {
+        padding-top: 40px;
+    }
+
+    .slick-slide img {
+        width: 200px;
+    }
+
+    article {
+        width: 8rem;
+      }
+}
+
+@media screen and (max-width: 786px) {
+    #hero {
+        gap: 0;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+    }
+
+    .hero-img {
+        justify-content: center;
+    }
+
+    .hero-img img {
+        width: 400px;
+    }
+
+    .about-containers, .about-details-container {
+        flex-direction: column;
+    }
+
+    #about .details-container {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .hide-for-small {
+        display: none;
+    }
+    
+    .gallery img {
+        margin: 10px;
+
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .contact-info-upper-container {
+        display: block;
+    }
+    .slick-slider {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .slick-slider img {
+        width: 300px;
+    }
+}
