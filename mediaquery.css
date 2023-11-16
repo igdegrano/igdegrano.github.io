@@ -60,6 +60,10 @@
         justify-content: center;
     }
 
+    .hero-content .hero-text-h1 {
+        font-size: 3rem;
+    }
+
     section {
         padding: 0 2rem;
     }
