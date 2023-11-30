@@ -127,6 +127,9 @@
         width: 80%;
         margin: 0 auto;
     }
+    .gallery img {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 486px) {
