@@ -25,9 +25,13 @@
         background-color: #fff;
     }
 
+    #intro-text {
+        padding-top: 0;
+    }
+
     #intro-text p {
         font-size: 2.5rem;
-        letter-spacing: 0;
+        letter-spacing: -2px;
     }
 }
 
