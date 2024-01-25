@@ -24,6 +24,11 @@
     .menu-links.open {
         background-color: #fff;
     }
+
+    #intro-text p {
+        font-size: 2.5rem;
+        letter-spacing: 0;
+    }
 }
 
 @media screen and (max-width: 864px) {
