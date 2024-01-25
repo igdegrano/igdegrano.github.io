@@ -133,6 +133,14 @@
 }
 
 @media screen and (max-width: 486px) {
+    .hero-img {
+        height: auto;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+
     .contact-info-container p {
         height: auto;
     }
