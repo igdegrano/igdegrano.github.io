@@ -195,6 +195,9 @@ max-width: 1200px;
 
 #about, #skills, #projects, #intro-text {
 padding-top: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 #hero, header {
