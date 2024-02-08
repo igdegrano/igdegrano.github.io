@@ -33,6 +33,10 @@
         font-size: 2.5rem;
         letter-spacing: -2px;
     }
+
+    .gallery img {
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 864px) {
